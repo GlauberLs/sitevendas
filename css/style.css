@@ -1,0 +1,58 @@
+.barra_navegacao{
+    height: 8vh;
+    width: 100%;
+    margin-top: -2vh;
+    background-color: rgb(6, 141, 165);
+}
+
+.barra_navegacao ul li{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+    list-style: none;
+    margin-left: 30vh;
+    margin-top: 3vh;
+}
+
+.barra_navegacao ul li a{
+    position: absolute;
+    transition: all 2s;
+    color: white;
+    text-decoration: none;
+}
+.barra_navegacao ul{
+    position: absolute;
+    margin-left: 20vh;
+}
+.barra_navegacao ul li a:hover{
+    transition: all 2s;
+    font-size: 2vh;
+    font-style: italic;
+    color: black;
+}
+.localnav{
+    background-color: #a39f9fcc;
+    color: #000000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 8vh;
+    position: absolute;
+    width: 100%;
+    height: 4vh;
+}
+.localnav h4{
+    position: absolute;
+    margin-left: 20vh;
+    margin-top: 1vh;
+
+}
+
+.logo{
+    color: white;
+    margin-top: 1vh;
+    height: 6vh;
+    width: 19vh;
+    position: absolute;
+    margin-left: 10vh;
+    font-size: 4vh;
+    font-family: Arial, Helvetica, sans-serif
+}
