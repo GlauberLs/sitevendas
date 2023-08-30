@@ -75,3 +75,22 @@
 .banner h1{
     font-size: 4vh;
 }
+
+#btBannerAnterior{
+    background-color: tomato;
+    height: 6vh;
+    width: 6vh;
+    padding: 2vh;
+    margin-top: 13vh;
+    position: absolute;
+}
+
+#btBannerProximo{
+    background-color: tomato;
+    height: 6vh;
+    width: 6vh;
+    padding: 2vh;
+    margin-top: 13vh;
+    margin-left: 185vh;
+    position: absolute;
+}
